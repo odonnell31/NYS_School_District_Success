@@ -6,4 +6,4 @@ dash-renderer==1.2.4
 dash-table==4.6.1
 plotly==3.7.1
 Flask==1.0.2
-gunicorn==19.0.0
+gunicorn==19.5.0
