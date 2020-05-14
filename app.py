@@ -89,7 +89,7 @@ app.layout = html.Div([
 
     # fourth Div, github and data source
     html.Div([
-        html.A('Code on Github', href='https://github.com/odonnell31/NYS_Educational_Success'),
+        html.A('Code on Github', href='https://github.com/odonnell31/NYS_School_District_Success'),
         html.Br(),
         html.A("Data Source", href='https://data.nysed.gov/downloads.php')
         ]
