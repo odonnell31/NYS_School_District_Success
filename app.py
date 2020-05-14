@@ -17,7 +17,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # initiate dash app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
+app.title = 'NYS Ed'
 # read in data
 df = pd.read_csv('data/Merged_dataset/NYS_Education_2019_v3.csv')
 
