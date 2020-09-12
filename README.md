@@ -3,7 +3,7 @@ Aim of project: determine if a relationship exists between School Districts’ s
 - Created: 5/14/20
 - view python Dash App here: https://nys-student-success.herokuapp.com/
 
-![Alt text](data/img/dash_img.PNG)
+![Alt text](data/img/dash_img.png)
 
 ## About the Dataset:
 The dataset was gathered from two sources:
