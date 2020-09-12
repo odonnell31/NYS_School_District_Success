@@ -3,6 +3,9 @@
 Created on Friday May 1 11:50:23 2020
 
 @author: Michael ODonnell
+
+Goal: Create a Dash App with python hosted on Heroku,
+        This app will show NYS teachers salary vs Student Success
 """
 
 # import libraries
@@ -27,8 +30,7 @@ df = pd.read_csv('data/Merged_dataset/NYS_Education_2019_v3.csv')
 student_kpis = ['Grade 3 ELA', 'Grade 3 Math', 'Grade 4 ELA', 'Grade 4 Math',
        'Grade 5 ELA', 'Grade 5 Math', 'Grade 6 ELA', 'Grade 6 Math',
        'Grade 7 ELA', 'Grade 7 Math', 'Grade 8 ELA', 'Grade 8 Math',
-       'Graduation_Rate', 'Regents_Diploma_Rate',
-       'Advanced_Regents_Diploma_rate',
+       'Graduation_Rate','Advanced_Regents_Diploma_rate',
        'Dropout_rate']
 
 # view all unique school districts
