@@ -1,6 +1,7 @@
 # New York State School District Success
 Aim of project: determine if a relationship exists between School Districts’ student success and Teachers’ Salary in New York State using a python Dash App.
 - Created: 5/14/20
+- updated Heroku version: 10/19/22
 - view python Dash App here: https://nys-student-success.herokuapp.com/
 
 ![Alt text](data/img/dash_img.png)
